@@ -1,9 +1,10 @@
 {application, csvx,
   [
-    {description, ""},
+    {description, "csvx"},
     {vsn, "0.1"},
+    {id, "csvx"},
+    {modules, [csvx]},
     {registered, []},
     {applications, []},
     {env, []}
   ]}.
-
